@@ -37,3 +37,15 @@ gem 'spring',        group: :development
 
 # Use debugger
 # gem 'debugger', group: [:development, :test]
+
+group :development do
+  gem 'pry-rails'
+  gem 'pry-byebug'
+  gem 'annotate'
+  gem 'quiet_assets'
+  gem 'pre-commit', require: false
+  gem 'html2slim', require: false
+end
+
+gem 'slim'
+gem 'draper'
