@@ -52,3 +52,4 @@ gem 'draper'
 
 gem 'autoprefixer-rails'
 gem 'bootstrap-sass'
+gem 'bootstrap-sass-extras'
