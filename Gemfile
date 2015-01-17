@@ -47,6 +47,8 @@ group :development do
   gem 'html2slim', require: false
 end
 
+gem 'rails_12factor'
+
 gem 'slim'
 gem 'draper'
 
