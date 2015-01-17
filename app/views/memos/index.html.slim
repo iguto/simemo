@@ -1,1 +1,12 @@
-h2 memos#index
+h2
+  |メモ一覧
+  small
+    .pull-right
+      = link_to new_memo_path, class: "btn btn-success" do
+        .glyphicon.glyphicon-plus
+        | &nbsp;作成
+
+  ul
+    - @memos.each do |memo|
+      li
+        = link_to memo.title, "#"
