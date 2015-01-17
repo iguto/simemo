@@ -36,23 +36,8 @@ html lang="ja"
             li
               = link_to "Link3", '#'
     .container
-      .row
-        .col-md-9
-          = bootstrap_flash
-          = yield
-        .col-md-3
-          .well.sidebar-nav
-            h3
-              | Sidebar
-            ul.nav.nav-list
-              li.nav-header
-                | Sidebar
-              li
-                = link_to "Link1", "#"
-              li
-                = link_to "Link2", "#"
-              li
-                = link_to "Link3", "#"
+      = bootstrap_flash
+      = yield
       footer
         p
           | © Company 2015
