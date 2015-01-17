@@ -7,6 +7,10 @@ class MemosController < ApplicationController
     @memo = Memo.new
   end
 
+  def show
+    @memo = Memo.find(params[:id])
+  end
+
   def create
     @memo = Memo.new(memo_params)
     @memo.save!
